@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  AirWar
 //
 //  Created by locky1218 on 15-3-15.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainView.h"
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
+{
+    MainView * drawView;
+}
 
 @end
-
